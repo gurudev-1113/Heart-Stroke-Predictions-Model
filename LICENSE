@@ -1,21 +1,71 @@
-MIT License
+# ❤️ Heart Stroke Prediction Model
 
-Copyright (c) 2020 xiz-kak
+A machine learning web application that predicts the probability of stroke based on patient health information.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Features
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- Stroke prediction using Machine Learning
+- User-friendly web interface
+- Data preprocessing
+- Feature engineering
+- Model evaluation
+- Real-time prediction
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Tech Stack
+
+- Python
+- Streamlit
+- Scikit-Learn
+- Pandas
+- NumPy
+- SQLAlchemy
+- FastAPI
+
+## Project Structure
+
+```
+Heart-Stroke-Predictions-Model/
+│
+├── data/
+├── model/
+├── notebooks/
+├── app.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
+
+## Installation
+
+```bash
+git clone https://github.com/gurudev-1113/Heart-Stroke-Predictions-Model.git
+
+cd Heart-Stroke-Predictions-Model
+
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+```
+
+## Run
+
+```bash
+streamlit run app.py
+```
+
+## Future Improvements
+
+- Deep Learning Model
+- Better UI
+- Docker Support
+- Cloud Deployment
+- Explainable AI (SHAP)
+
+## Author
+
+**Gurudev**
+
+GitHub:
+https://github.com/gurudev-1113
